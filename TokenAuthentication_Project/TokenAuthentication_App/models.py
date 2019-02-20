@@ -1,5 +1,6 @@
 from django.db import models
 
+# This is User defined Model
 class Emp(models.Model):
     empid = models.IntegerField(primary_key=True)
     empname = models.CharField(max_length=200)
