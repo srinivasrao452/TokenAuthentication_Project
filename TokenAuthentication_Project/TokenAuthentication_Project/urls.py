@@ -18,7 +18,6 @@ from django.conf.urls import url,include
 from TokenAuthentication_App import views as myviews
 from rest_framework.authtoken import views
 
-# Required urls
 urlpatterns = [
     url('admin/', admin.site.urls),
     url(r'auth/', myviews.login_form),
