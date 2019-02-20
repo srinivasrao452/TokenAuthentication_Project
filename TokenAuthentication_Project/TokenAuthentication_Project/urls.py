@@ -25,3 +25,4 @@ urlpatterns = [
     url(r'api/' , include('TokenAuthentication_App.urls')),
     url(r'gettoken/$',views.obtain_auth_token),
 ]
+# My url
